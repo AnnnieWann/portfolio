@@ -40,12 +40,14 @@
           <h1 class="text-5xl font-bold">Annie</h1>
           <p class="text-xl py-6">A self-taught front-end developer</p>
           <div class="flex flex-row justify-center">
-            <button class="btn btn-primary mr-3">GitHub</button>
-            <button class="btn btn-primary">Resume</button>
+            <button class="btn btn-primary mr-3" onclick="window.open('https://github.com/AnnnieWann');">GitHub</button>
+            <button class="btn btn-primary" onclick="window.open('./resume.pdf');">Resume</button>
           </div>
         </div>
       </div>
     </div>
+
+   
     
     <!-- About me -->
     <div class="w-4/5 mx-auto bg-white" id="about">
@@ -109,17 +111,17 @@
 
         <!-- Project 1 -->
         <div class="card w-11/12 bg-base-100 my-5 mx-auto shadow-xl image-full hover:scale-105">
-          <figure><img src="/img/virtual-assistant.png" alt="project screenshot" /></figure>
+          <figure><img src="/img/my-movie-list.png" alt="project screenshot" /></figure>
           <div class="card-body">
             <h2 class="card-title mb-5 tracking-wider">My Movie List</h2>
             <p class="font-semibold tracking-wide">HTML, JavaScript, Bootstrap, Axios, API</p>
             <div class="card-actions justify-end">
               <!-- To demo link --> 
-              <button class="btn btn-primary bg-transparent rounded-full" target="_blank" onclick="location.href = 'https://annniewann.github.io/my-movie-list/';" >
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://annniewann.github.io/my-movie-list/');" >
                 <object id="open" data="/logo/open-external.svg" type="image/svg+xml"></object>
               </button>
               <!-- To github -->
-              <button class="btn btn-primary bg-transparent rounded-full" target="_blank" onclick="location.href = 'https://annniewann.github.io/marketing-agency-website/';">
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://github.com/AnnnieWann/my-movie-list/');">
                 <object id="github" data="/logo/github.svg" type="image/svg+xml"></object>
               </button>
             </div>
@@ -134,13 +136,11 @@
             <p class="font-semibold tracking-wide">HTML, CSS, JavaScript, Bootstrap, Axios, API</p>
             <div class="card-actions justify-end">
               <!-- To demo link --> 
-              <!-- Add link -->
-              <button class="btn btn-primary bg-transparent rounded-full"> 
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://annniewann.github.io/finding-virtual-assistant/');"> 
                 <object id="open" data="/logo/open-external.svg" type="image/svg+xml"></object>
               </button>
               <!-- To github -->
-              <!-- Add link -->
-              <button class="btn btn-primary bg-transparent rounded-full">
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://github.com/AnnnieWann/finding-virtual-assistant');">
                 <object id="github" data="/logo/github.svg" type="image/svg+xml"></object>
               </button>
             </div>
@@ -152,14 +152,14 @@
           <figure><img src="/img/digital-agency-website.png" alt="project screenshot" /></figure>
           <div class="card-body">
             <h2 class="card-title mb-5 tracking-wider">Marketing Agency Website</h2>
-            <p class="font-semibold tracking-wide">HTML, CSS, JavaScript</p>
+            <p class="font-semibold tracking-wide">HTML, CSS, JavaScript, Bootstrap, JS library - Masonry, animate.css</p>
             <div class="card-actions justify-end">
               <!-- To demo link -->
-              <button class="btn btn-primary bg-transparent rounded-full" target="_blank" onclick="location.href = 'https://annniewann.github.io/marketing-agency-website/';">
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://annniewann.github.io/marketing-agency-website/');">
                 <object id="open" data="/logo/open-external.svg" type="image/svg+xml"></object>
               </button>
               <!-- To github -->
-              <button class="btn btn-primary bg-transparent rounded-full" target="_blank" onclick="location.href = 'https://github.com/AnnnieWann/marketing-agency-website';">
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://github.com/AnnnieWann/marketing-agency-website');">
                 <object id="github" data="/logo/github.svg" type="image/svg+xml"></object>
               </button>
             </div>
@@ -168,17 +168,18 @@
 
         <!-- Project 4 -->
         <div class="card w-11/12 bg-base-100 my-5 mx-auto shadow-xl image-full hover:scale-105">
-          <figure><img src="/img/digital-agency-website.png" alt="project screenshot" /></figure>
+          <figure><img src="/img/portfolio-website.png" alt="project screenshot" /></figure>
           <div class="card-body">
             <h2 class="card-title mb-5 tracking-wider">Portfolio Website</h2>
             <p class="font-semibold tracking-wide">HTML, CSS, Tailwind CSS</p>
             <div class="card-actions justify-end">
               <!-- To demo link -->
-              <button class="btn btn-primary bg-transparent rounded-full" target="_blank" onclick="location.href = 'https://annniewann.github.io/portfolio/';">
+
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://annniewann.github.io/portfolio/');">
                 <object id="open" data="/logo/open-external.svg" type="image/svg+xml"></object>
               </button>
               <!-- To github -->
-              <button class="btn btn-primary bg-transparent rounded-full" target="_blank" onclick="location.href = 'https://github.com/AnnnieWann/portfolio';">
+              <button class="btn btn-primary bg-transparent rounded-full" onclick="window.open('https://github.com/AnnnieWann/portfolio');">
                 <object id="github" data="/logo/github.svg" type="image/svg+xml"></object>
               </button>
             </div>
@@ -192,7 +193,7 @@
     <!-- Footer -->
     <footer class="footer footer-center p-4 bg-neutral text-neutral-content">
       <div>
-        <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+        <p>Copyright © 2023 - All right reserved</p>
       </div>
     </footer>
 
